@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Highway Bus Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="navbar bg-base-100 lg:px-[133px] lg:py-[55px]">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost font-bold text-2xl h-[100px]">Highway Bus</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a href="bt" class="btn w-[130px] h-[56px] px-[30px] py-[16px] border-green-500 bg-green-100 hover:bg-green-200 focus:bg-green-200 text-green-500">Bus <img src="res/bus-icon.png" alt=""></a>
+          </div>
+        </div>
+        
+        <section class="flex justify-center">
+          <div class="lg:w-[1071px] lg:h-[450px] w-full rounded-[32px] bg-center bg-cover"
+          style="background-image: url(res/banner.png);">
+          <div class="flex items-center justify-center w-full h-full rounded-[32px] bg-gray-900 bg-opacity-35 py-12">
+            <div class="text-center">
+              <div class="container px-4 mx-auto">
+                <div class="max-w-4xl mx-auto text-center">
+                  <span class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">End-to-End Travel with</span>
+                  <h2 class="mt-8 mb-6 text-4xl lg:text-6xl font-bold border-transparent text-lime-400">Highway Bus Service</h2>
+                  <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                    Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.
+                  </p>
+                  <a class="btn w-[145px] h-[50px] px-[30px] py-[16px] font-bold bg-lime-400 hover:bg-green-700 hover:text-white focus:bg-lime-600 text-black text-[15px]">Buy Tickets</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <script src="src.js"></script>   
 </body>
 </html>
