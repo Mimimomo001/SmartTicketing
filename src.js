@@ -65,7 +65,7 @@ function setElementValueById(elementId, value) {
           document.getElementById("apply").setAttribute("disabled", true);
         }
   
-        document.getElementById("phn").addEventListener('keyup', function(event){
+        document.getElementById("phn").addEventListener(function(event){
           const text = event.target.value.toString().length;
           const button = document.getElementById("next");
           if (text > 0 && busSeat > 0) {
